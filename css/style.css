@@ -1,0 +1,645 @@
+body{
+	font-family: 'Rubik', sans-serif;
+	background: url(..//img/bg.jpg) center top;
+	color: #fff;
+}
+
+section{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 1060px;
+}
+
+header{
+	display: flex;
+	max-width: 1920px;
+	background: url(..//img/bg-head.png) center top;
+	justify-content: center;
+	height: 283px;
+}
+
+header div{
+	display: flex;
+	width: 1060px;
+	justify-content: space-between;
+	align-items: center;
+	margin: 28px 0 0;
+	height: 64px;
+}
+
+header div ul{
+	display: flex;
+	width: 562px;
+	justify-content: space-between;
+	list-style: none;
+	padding: 0;
+
+}
+
+header div ul a{
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	padding: 20px 0;
+	box-sizing: border-box;
+}
+
+.menu-btn{
+	display: none;
+}
+
+.buy-btn{
+	width: 160px;
+	height: 40px;
+	background: #E3131D;
+	box-shadow: 0px 0px 4px rgba(115, 115, 115, 0.25);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-weight: 500;
+	text-decoration: none;
+}
+
+.buy-btn:hover{
+	background: #761A1E;
+}
+
+header div ul a:hover{
+	border-bottom: 1px solid #fff;
+}
+
+.home{
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.home-right{
+	min-height: 234px;
+	width: 500px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 85px 0 0 50px;
+}
+
+.home-right h1{
+	font-weight: 300;
+	font-size: 36px;
+}
+
+.home-right>.buy-btn{
+	display: none;
+}
+.h2-style{
+	font-weight: 300;
+	font-size: 26px;
+	margin: 0 0 10px 0;
+}
+
+.about p{
+	max-width: 750px;
+	font-size: 16px;
+	text-align: center;
+	margin: 40px 0 20px; 
+}
+
+.about>.p1{
+	margin: 0 0 20px 0;
+}
+
+.video{
+	margin-top: 50px;
+}
+
+.video iframe{
+	width: 779px;
+	height: 410px;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 10px;
+	margin-top: 40px;
+	margin-bottom: 70px;
+}
+
+.gallery{
+	margin-bottom: 75px;
+}
+
+.owl-theme{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 779px;
+	height: 374px;
+}
+
+.owl-carousel{
+	display: flex;
+	align-items: center;
+}
+
+.owl-item{
+	width: 669px;
+	height: 374px;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+
+.owl-nav {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+}
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+  color: #fff;
+  font-size: 56px;
+  position: absolute;
+  outline: none;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+  left: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  right: 0;
+}
+.owl-theme{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 669px;
+  height: 374px;
+}
+
+.owl-carousel{
+  display: flex;
+  align-items: center;
+}
+
+.owl-item{
+  width: 669px;
+  height: 374px;
+  background-size: cover;
+  border: 1px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.rules p{
+	margin: 25px 0 0;
+	font-size: 16px;
+	text-align: center;
+	max-width: 755px;
+}
+
+.rules-info{
+	margin-top: 35px;
+	display: flex;
+	align-items: center;
+}
+
+.rules-info>div{
+	margin-left: 15px;
+}
+
+.rules-btn{
+	width: 110px;
+	height: 50px;
+	background: #E3131D;
+	box-shadow: 0px 0px 4px rgba(115, 115, 115, 0.25);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-weight: 500;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.rules-btn:hover{
+	background: #761A1E;
+}
+
+.buy-game{
+	height: 234px;
+	width: 500px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 90px auto 0 auto;
+}
+
+.buy-game h3{
+	font-weight: 300;
+	font-size: 36px;
+}
+
+.buy-game-btn{
+	width: 200px;
+	height: 50px;
+	background: #E3131D;
+	box-shadow: 0px 0px 4px rgba(115, 115, 115, 0.25);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	font-weight: 500;
+	text-decoration: none;
+	text-align: center;
+	margin: 30px auto 50px;
+}
+
+.buy-game-btn:hover{
+	background: #761A1E;
+}
+
+footer{
+	background: url(../img/bg-footer.png);
+	height: 180px;
+	max-width: 1920px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 400px;
+	box-sizing: border-box;
+}
+
+footer p{
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.contact{
+	position: absolute;
+	width: 500px;
+	height: 440px;
+	background: #fff;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 50px;
+	box-sizing: border-box;
+	z-index: 2;
+	margin: auto;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+}
+
+.contact-top h4{
+	font-size: 22px;
+	color: #0C0D14;
+	font-weight: 400;
+	margin: 0;
+}
+
+.contact-top{
+	width: 380px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.contact-top a{
+	position: absolute;
+	right: 0;
+}
+
+.contact label{
+	font-weight: 300;
+	font-size: 16px;
+	color: #0C0D14;
+	margin-top: 40px;
+	align-self: flex-start;
+	margin-bottom: 10px;
+	margin-left: 10px;
+
+}
+
+.contact input{
+	width: 380px;
+	height: 50px;
+	border: 1px solid #E0E0E0;
+	box-sizing: border-box;
+	border-radius: 5px;
+	align-self: flex-start;
+	padding: 0 0 0 10px;
+}
+
+.contact input[type="text"]:valid {
+	border: 1px solid #0C0D14;
+	outline: none;
+}
+
+.contact input[type="text"]:focus{
+	border: 1px solid #E0E0E0;
+	outline: none;
+}
+
+.contact input[type="text"]:focus:valid{
+	border: 1px solid #0C0D14;
+	outline: none;
+}
+
+.contact input[type="submit"]{
+	font-weight: 500;
+	font-size: 18px;
+	width: 160px;
+	height: 40px;
+	background: #E3131D;
+	box-shadow: 0px 0px 4px rgba(115, 115, 115, 0.25);
+	border-radius: 5px;
+	color: #fff;
+	margin: 40px auto 0;
+}
+
+.mask{
+	position: absolute;
+    background: rgba(0,0,0,0.9);
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.menu{
+	background: #fff;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: -1000px;
+	width: 300px;
+	z-index: 2;
+	padding: 50px;
+	box-sizing: border-box;
+	display: none;
+}
+
+.menu ul{
+	list-style: none;
+	padding: 0;
+}
+
+.menu ul a{
+	color: #0C0D14;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+.menu ul a li:hover{
+	border-bottom: 2px solid #E3131D;
+}
+
+.menu ul a li{
+	margin: 50px 0 0;
+	padding-bottom: 10px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+}
+
+@media(max-width: 1400px){
+	footer{
+		padding: 0 200px;
+	}
+}
+
+@media(max-width: 1200px){
+	body{
+		background: #0C0D14;
+	}
+
+	.home>img{
+		display: none;
+	}
+
+	.home-right{
+		margin: 0;
+	}
+
+	.home-right>.buy-btn{
+		display: flex;
+		margin: 25px 0 65px;
+	}
+
+	.menu-btn{
+		display: flex;
+	}
+
+	header div>.buy-btn{
+		display: none;
+	}
+
+	header div>ul{
+		display: none;
+	}
+
+	header{
+		justify-content: space-between;
+		padding: 0 50px;
+		box-sizing: border-box;
+	}
+}
+
+@media(max-width: 900px){
+	.video iframe{
+	width: 570px;
+	height: 320px;
+	}
+
+	.about p, .owl-theme, .owl-carousel, .rules p{
+		width: 570px;
+	}
+
+	footer{
+		padding: 0 50px;
+		background: url(..//img/bg-footer-t-m2.png) center top;
+		height: 140px;
+	}
+
+	header{
+		background: url(../img/bg-head-t-m.png) center top;
+		height: 190px;
+	}
+	
+	.owl-theme, .owl-carousel, .owl-item{
+		height: 325px;
+	}
+}
+
+@media(max-width: 650px){
+	.video, .gallery, .about, .rules, .home{
+		padding: 0 50px;
+	}
+
+	.buy-game{
+		padding: 0 50px;
+		box-sizing: border-box;
+		margin: 75px auto 25px;
+	}
+
+}
+
+@media(max-width: 600px){
+	header{
+		padding: 0 15px;
+	}
+
+	.home-right img{
+		width: 400px;
+	}
+
+	.home-right img:first-child{
+		width: 254px;
+	}
+
+	.home-right h1{
+		font-size: 32px;
+	}
+
+	.about p, .rules p , .owl-theme, .owl-carousel{
+		width: 480px;
+	}
+
+	.owl-theme, .owl-carousel, .owl-item{
+		height: 269px;
+	}
+
+	.video iframe{
+		width: 480px;
+		height: 269px;
+	}
+
+	.buy-game img{
+		width: 400px;
+	}
+
+	.buy-game img:first-child{
+		width: 254px;
+	}
+
+	.buy-game h1{
+		font-size: 32px;
+	}
+
+	footer{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+}
+
+@media(max-width: 500px){
+	header>div>a>img{
+		height: 50px;
+		width: 200px;
+	}
+
+	.home-right img{
+		width: 300px;
+	}
+
+	.home-right img:first-child{
+		width: 191px;
+	}
+
+	.home-right h1{
+		font-size: 26px;
+	}
+
+	.about p, .rules p , .owl-theme, .owl-carousel{
+		width: 360px;
+	}
+
+	.owl-nav{
+		display: none;
+	}
+
+	.video iframe{
+		width: 360px;
+		height: 202px;
+	}
+
+	.owl-theme, .owl-carousel, .owl-item{
+		height: 202px;
+	}
+
+	.buy-game img{
+		width: 300px;
+	}
+
+	.buy-game img:first-child{
+		width: 191px;
+	}
+
+	.buy-game h3{
+		font-size: 26px;
+	}
+
+	.buy-game{
+		width: 360px;
+		height: 168px;
+	}
+
+	footer a img{
+		height: 50px;
+		width: 200px;
+	}
+
+	.gallery{
+		margin-bottom: 25px;
+	}
+}
+
+@media(max-width: 400px){
+	.about p, .rules p , .owl-theme, .owl-carousel{
+		width: 320px;
+	}
+
+	.video, .gallery, .about, .rules, .home{
+		padding: 0 15px;
+	}
+
+	.buy-game{
+		padding: 0 15px;
+		box-sizing: border-box;
+		margin: 75px auto 25px;
+	}
+
+	.video iframe{
+		width: 320px;
+		height: 155px;
+	}
+
+	.owl-theme, .owl-carousel, .owl-item{
+		height: 155px;
+	}
+
+	section{
+		margin: 0 auto;
+	}
+
+}
